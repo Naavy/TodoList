@@ -1,0 +1,48 @@
+body {
+    background-color: #f7f9fb;
+}
+
+.sidebar {
+    background-color: #00214c;
+    width: 80px;
+    height: 100vh;
+    margin-left: 2px;
+    position: fixed;
+}
+
+.topbar {
+    background-color: #ffffff;
+    height: 80px;
+    border-bottom: 2px solid #ebeef1;
+    color: #29333d;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.columns {
+    display: flex;
+    margin-left: 110px;
+}
+
+.column {
+    background-color: transparent;
+    height: 100vh;
+    margin: 20px 30px 20px 0px;
+    width: 330px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #29333d;
+}
+
+.todoCard {
+    border: 1px solid #e8ecef;
+    padding: 16px 20px;
+    background-color: #fff;
+    min-height: 180px;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
